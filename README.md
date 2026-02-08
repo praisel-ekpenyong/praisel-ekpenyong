@@ -31,7 +31,10 @@ I am actively building practical experience through **SOC labs, SIEM analysis, a
 - Incident Detection & Basic Response  
 - Threat Intelligence Fundamentals  
 - Networking & TCP/IP  
-- Linux & Windows Security Basics  
+- Linux & Windows Security Basics
+- MITRE ATT&CK mapping
+- Vulnerability management fundamentals
+- ServiceNow incident workflows  
 
 ---
 
