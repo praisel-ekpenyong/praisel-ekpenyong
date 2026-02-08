@@ -65,7 +65,7 @@ I am actively building practical experience through **SOC labs, SIEM analysis, a
 - 🐍 **Python scripts for log parsing (in progress)**  
 
 🖊️ View portfolio:  
-**https://github.com/praisel-ekpenyong/soc-analyst-portfolio**
+**(https://github.com/praisel-ekpenyong/SOC-Analyst-Lab)**
 
 ---
 
