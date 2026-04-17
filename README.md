@@ -1,84 +1,74 @@
-<img src="banner.png" alt="SOC Analyst Banner" />
+#Hi 👋, I'm Praisel Ekpenyong
 
-<h1 align="center">Hi 👋, I'm Praisel Ekpenyong</h1>
-<h3 align="center">Entry-Level SOC Analyst</h3>
+### Entry-Level SOC Analyst
 
-<p align="center">
-Open to Remote & Relocation  
-</p>
+📧 [ekpenyongpraisel@gmail.com](mailto:ekpenyongpraisel@gmail.com) | 🔗 [LinkedIn](linkedin.com/in/praiselekpenyong)
 
-<p align="center">
-  <a href="mailto:ekpenyongpraisel@gmail.com">
-    <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/>
-  </a>
-</p>
+**📄 [Download One-Page Canva-Style Portfolio Summary (PDF)](Portfolio-Summary.pdf)**
+
+This is my **hands-on SOC Analyst Portfolio** — a collection of realistic investigations built in a home lab using Splunk, Wazuh, Microsoft Sentinel, Sysmon, Zeek, and Caldera/Atomic Red Team.
+
+I focused on the exact skills hiring managers look for in a Junior/Tier 1 SOC role: alert triage, log analysis, false-positive discipline, escalation documentation, and clear ticket-style communication.
 
 ---
 
-## 🟡️ About Me
-I am an **Entry-Level SOC Analyst** with a strong interest in **threat detection, log analysis, and incident response**. I enjoy working with security tools, analyzing suspicious activity, and continuously improving my blue-team skills through hands-on labs and real-world simulations.
+### 🧭 Quick Navigation
 
-I am actively building practical experience through **SOC labs, SIEM analysis, and security investigations**, and I am seeking opportunities in **SOC Analyst Tier 1 / Junior SOC / Security Analyst roles**.
-
----
-
-## 🧒🏻‍♂️ Core SOC Skills
-- Security Monitoring & Alert Triage  
-- Log Analysis (Windows, Linux, Network Logs)  
-- Incident Detection & Basic Response  
-- Threat Intelligence Fundamentals  
-- Networking & TCP/IP  
-- Linux & Windows Security Basics
-- MITRE ATT&CK mapping
-- Vulnerability management fundamentals
-- ServiceNow incident workflows  
+- [Featured Cases](#featured-cases)
+- [Full Case Studies](#full-case-studies)
+- [Detections & Playbooks](./detections/)
+- [Lab Setup](./lab/)
+- [Playbooks](./playbooks/)
 
 ---
 
-## 🛠️ Tools & Technologies
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
-</p>
+### Skills at a Glance
 
-**Security Tools (Hands-on / Learning):**
-- SIEM: Splunk, Elastic (Beginner)
-- Wireshark
-- Nmap
-- Burp Suite
-- VirusTotal
-- Windows Event Viewer
+- **Alert Triage & Investigation** – Splunk SPL, Sentinel KQL, Wazuh
+- **Log & Endpoint Analysis** – Sysmon, Windows Security, PowerShell Logs
+- **Network Validation** – Zeek, Wireshark, short PCAP review
+- **Detection Engineering** – Rule writing + false-positive tuning
+- **Documentation** – Ticketing, escalation notes, shift handoffs
 
 ---
 
-## 📜 Projects & Labs
-- 🧹 **SOC Analyst Portfolio** – Security investigations and case studies  
-- 🔎 **Log Analysis & SIEM Monitoring**  
-- 🌐 **Network Traffic Analysis with Wireshark**  
-- 🚠 **Basic Incident Response Playbooks**  
-- 🐍 **Python scripts for log parsing (in progress)**  
+### Featured Cases (My Strongest Work)
 
-🖊️ View portfolio:  
-**(https://github.com/praisel-ekpenyong/SOC-Analyst-Lab)**
+**🔥 Case 02 – Encoded PowerShell False Positive**  
+Investigated high-severity encoded PowerShell alert → confirmed legitimate NinjaOne RMM activity using parent-process analysis, script-block logs, baseline, and vendor TLS traffic. Closed as benign with tuning recommendation.
 
----
+**🔥 Case 05 – Microsoft Sentinel Multi-Stage Attack Chain**  
+Correlated RDP brute force → successful Logon Type 10 → PowerShell execution → outbound TLS using KQL. Delivered full timeline and strong Tier 1→Tier 2 escalation note.
 
-## 📟 Certifications
-<p>
-  <img src="https://img.shields.io/badge/Microsoft%20AZ--500-0078D4?style=for-the-badge&logo=microsoft"/>
-  <img src="https://img.shields.io/badge/Splunk%20Core%20User-000000?style=for-the-badge&logo=splunk"/>
-  <img src="https://img.shields.io/badge/Google%20Cybersecurity-4285F4?style=for-the-badge&logo=google"/>
-  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-EA1D2C?style=for-the-badge&logo=comptia"/>
-</p>
+**🔥 Case 06 – PCAP-Backed Beaconing vs Legitimate Updater**  
+Analyzed recurring HTTPS traffic that looked like C2. Used Zeek metadata, Task Scheduler, and short PCAP to prove it was legitimate scheduled update activity. Documented tuning opportunities.
 
 ---
 
-## 🎁 Career Objective
-To secure an **Entry-Level SOC Analyst** role where I can contribute to security monitoring, incident detection, and continuous improvement of security operations while growing into a skilled blue-team professional.
+### Full Case Studies
+
+<details>
+<summary>📋 Click to expand — All 9 Cases (with direct links)</summary>
+
+| #   | Case Title | Key Skills Shown | Link |
+| --- | --- | --- | --- |
+| 01  | Failed Logon Followed by Successful Authentication | Authentication correlation, baseline check, escalation | [View](./case-studies/01_failed_logon_successful_authentication.md) |
+| 02  | Encoded PowerShell False Positive (NinjaOne RMM) | False-positive discipline, baseline analysis, tuning | [View](./case-studies/02_powershell_false_positive_admin_tool.md) |
+| 03  | New Local Administrator Account Creation | Persistence review, unauthorized change detection | [View](./case-studies/03_new_local_admin_account_creation.md) |
+| 04  | Suspicious Outbound Connection Review | Process-to-network correlation | [View](./case-studies/04_suspicious_outbound_connection_review.md) |
+| 05  | Microsoft Sentinel Multi-Stage Attack Chain | KQL correlation, full kill-chain timeline | [View](./case-studies/05_sentinel_multistage_attack_chain.md) |
+| 06  | PCAP-Backed Beaconing vs Legitimate Update Traffic | Zeek + Wireshark validation, updater vs C2 | [View](./case-studies/06_pcap_beaconing_vs_legitimate_update_traffic.md) |
+| 07  | SOAR Edge Case – VPN False Block | Automation logic review, playbook improvement | [View](./case-studies/07_soar_edge_case_vpn_false_block.md) |
+| 08  | Phishing Email with Malicious Attachment | Email header + endpoint correlation | [View](./case-studies/08_phishing_malicious_attachment_triage.md) |
+| 09  | Scheduled Task Persistence After PowerShell | Persistence detection, process chain analysis | [View](./case-studies/09_scheduled_task_persistence.md) |
+
+</details>
 
 ---
 
-⚡ *Fun fact:* I enjoy investigating logs and alerts as much as solving real-world security puzzles.
+**Full Portfolio:** [github.com/praisel-ekpenyong/Portfolio](https://github.com/praisel-ekpenyong/Portfolio)  
+**Last updated:** April 2026
+
+---
+
+*Built with real lab telemetry (Caldera + Atomic Red Team). Focused on practical Tier 1 SOC skills: triage, investigation, documentation, and escalation.
