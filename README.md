@@ -2,7 +2,7 @@
 
 ## Entry-Level SOC Analyst
 
-📧 [ekpenyongpraisel@gmail.com](mailto:ekpenyongpraisel@gmail.com) | 🔗 [LinkedIn](linkedin.com/in/praiselekpenyong)
+## 📧 [ekpenyongpraisel@gmail.com](mailto:ekpenyongpraisel@gmail.com) | 🔗 [LinkedIn](linkedin.com/in/praiselekpenyong)
 
 **📄 [Download One-Page Canva-Style Portfolio Summary (PDF)](Portfolio-Summary.pdf)**
 
