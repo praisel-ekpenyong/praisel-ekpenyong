@@ -1,6 +1,6 @@
-#Hi 👋, I'm Praisel Ekpenyong
+# Hi 👋, I'm Praisel Ekpenyong
 
-### Entry-Level SOC Analyst
+## Entry-Level SOC Analyst
 
 📧 [ekpenyongpraisel@gmail.com](mailto:ekpenyongpraisel@gmail.com) | 🔗 [LinkedIn](linkedin.com/in/praiselekpenyong)
 
